@@ -1,0 +1,29 @@
+{
+  "name": "algorithms_node",
+  "version": "1.0.0",
+  "description": "practice node",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "test:watch": "npm test -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rpkrupali1/algorithms_node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rpkrupali1/algorithms_node/issues"
+  },
+  "homepage": "https://github.com/rpkrupali1/algorithms_node#readme",
+  "type": "module",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "benchmark": "^2.1.4",
+    "jest": "^30.4.2",
+    "ts-jest": "^29.4.11",
+    "typescript": "^6.0.3"
+  }
+}
