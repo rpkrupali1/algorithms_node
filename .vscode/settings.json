@@ -1,4 +1,7 @@
 {
   "jest.rootPath": ".",
-  "jest.jestCommandLine": "npx jest"
+  "jest.jestCommandLine": "npx jest",
+  "code-runner.executorMap": {
+    "typescript": "npx tsx"
+  }
 }

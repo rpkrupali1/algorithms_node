@@ -31,4 +31,16 @@ describe.each(implementations)("$name", ({ fn }) => {
   it("should return false for a non-palindrome integer with even number of digits", () => {
     expect(fn(1234)).toBe(false);
   });
+
+  it("should return true for zero", () => {
+    expect(fn(0)).toBe(true);
+  });
+
+  it("should return true for a large palindrome", () => {
+    expect(fn(1234321)).toBe(true);
+  });
+
+  it("should return false for a number with trailing zeros", () => {
+    expect(fn(100)).toBe(false);
+  });
 });
